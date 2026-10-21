@@ -10,5 +10,11 @@ this.precio = precio;
 
 }
 
+public double precioConDescuento (double pct)
+{
+
+    return precio * (1 - pct /100);
+
+}
 
 }
